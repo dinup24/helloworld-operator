@@ -1,0 +1,7 @@
+apiVersion: apps.helloworld.ibm.com/v1alpha1
+kind: HelloWorld
+metadata:
+  name: helloworld-sample
+spec:
+  # Add fields here
+  foo: bar
