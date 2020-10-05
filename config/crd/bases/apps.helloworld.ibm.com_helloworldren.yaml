@@ -40,6 +40,9 @@ spec:
               description: Foo is an example field of HelloWorld. Edit HelloWorld_types.go
                 to remove/update
               type: string
+            size:
+              format: int32
+              type: integer
           type: object
         status:
           description: HelloWorldStatus defines the observed state of HelloWorld

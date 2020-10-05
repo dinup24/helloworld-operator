@@ -2,3 +2,5 @@ apiVersion: apps.helloworld.ibm.com/v1alpha1
 kind: HelloWorld
 metadata:
   name: helloworld
+spec:
+  size: 4
