@@ -1,5 +1,12 @@
 ### Helloworld operator
 
+#### Pre-requisites (MacOS)
+```
+1. Install Operator SDK
+
+brew install operator-sdk
+```
+
 ```
 operator-sdk init --domain=helloworld.ibm.com --repo=github.com/dinup24/helloworld-operator
 
